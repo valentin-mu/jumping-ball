@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+    <head>
+	<title></title>
+	<meta charset="utf-8" />
+	<style>
+	 .container {
+	     position: relative;
+	     border: 1px solid grey;
+	     width: 700px;
+	     height: 450px;
+	     margin: 15px auto;
+	 }
+	 .ball{
+	     position: absolute;
+	     top: 50%;
+	     width: 15px;
+	     height: 15px;
+	     background-color: darkgreen;
+	     border-radius: 50%;
+	 }
+	 .bad-block {
+	     position: absolute;
+	     background-color: darkred;
+	 }
+	 .score {
+	     position: absolute;
+	     right: 15px;
+	     background-color: white;
+	     font-weight: bold;
+	     font-size: 30px;
+	     top: 10px;
+	     color: darkgreen;
+	     font-family: sans-serif;
+	 }
+	</style>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="score"></div>
+	    <div class="ball"></div>
+	</div>
+	<script src="ball.js"></script>
+    </body>
+</html>
